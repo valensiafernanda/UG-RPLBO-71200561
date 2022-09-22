@@ -83,5 +83,14 @@ public class Bus {
         }
     }
 
-
+    public proceedOrder(String name, Passenger passenger){
+    }
+    
+    public String cancelOrder(Passenger penumpang){
+        return penumpang.getName();
+    }
+    
+    public Bus (String name, Driver driver){
+        this.name = name;
+        this.driver = driver;
 }
