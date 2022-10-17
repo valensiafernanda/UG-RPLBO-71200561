@@ -1,5 +1,3 @@
-import static com.ug7.ewallet.Main.formatRupiah;
-
 public class ShopeePay extends eWallet {
     private int feeTopup = 500;
     private int feeTransfer = 0;
